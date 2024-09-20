@@ -9,7 +9,7 @@ Explanation: The code begins by importing two necessary libraries:
 pandas: Used for data manipulation and analysis.
 matplotlib.pyplot: A plotting library for creating visualizations like line graphs and polygons.
 
-# Load the CSV file
+# Load the CSV file (Sample Data - LIMIT 10 rows)
 file_path = 'Downloads/LRS_PROD (1).csv' 
 data = pd.read_csv(file_path)
 Explanation: The pandas.read_csv() function reads the CSV file 'Downloads/LRS_PROD (1).csv' into a DataFrame named data. This file is expected to contain GPS data, including longitudes and latitudes necessary for plotting a polygon.
