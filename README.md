@@ -9,7 +9,7 @@ Explanation: The code begins by importing two necessary libraries:
 pandas: Used for data manipulation and analysis.
 matplotlib.pyplot: A plotting library for creating visualizations like line graphs and polygons.
 
-# Load the CSV file
+# Load the CSV file (Sample Data - LIMIT 10 rows)
 file_path = 'Downloads/LRS_PROD (1).csv' 
 data = pd.read_csv(file_path)
 Explanation: The pandas.read_csv() function reads the CSV file 'Downloads/LRS_PROD (1).csv' into a DataFrame named data. This file is expected to contain GPS data, including longitudes and latitudes necessary for plotting a polygon.
@@ -74,10 +74,10 @@ Closing the Polygon: Ensuring the polygon is closed by appending the first point
 
 # FUTURE PLANNING
 
-# What Extra Needs to be Done in Power BI Using ArcGIS:
+# What Extra Needs to be Done in Power BI Using ArcGIS (Once bugs are fixed):
 In Power BI, using ArcGIS to map GPS data would require the following steps:
 
-Ensure that the GPS data being passed to Power BI is free from missing values and is formatted correctly.
-In Power BI, the ArcGIS visual can be used to map the longitude and latitude data.
-Configure layers for polygons in ArcGIS to visualize the shapes formed by the GPS points.
-ArcGIS in Power BI allows for more interactive mapping, where users can zoom in/out and explore geographical data.
+-Ensure that the GPS data being passed to Power BI is free from missing values and is formatted correctly.
+-In Power BI, the ArcGIS visual can be used to map the longitude and latitude data.
+-Configure layers for polygons in ArcGIS to visualize the shapes formed by the GPS points.
+-ArcGIS in Power BI allows for more interactive mapping, where users can zoom in/out and explore geographical data.
